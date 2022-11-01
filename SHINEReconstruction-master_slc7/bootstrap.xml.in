@@ -21,7 +21,11 @@
   &standardStaticDetConfig;
 
   <centralConfig>
-
+<!--
+   <configLink
+	id         = "TPCPadGainFixedManager"
+	xlink:href = "/afs/cern.ch/user/n/na61qa/SHINEInstallations/src-Master/Applications/Examples/Calibration/TPCKrCalibrationBR/FullStats/PreCalibration/TPCPadGainFixedManager-VTPC1Kr.xml"/>
+-->
     <configLink
       id         = "DManagerRegister"
       xlink:href = "DManagerRegisterStaticConfig.xml"/>
@@ -41,14 +45,6 @@
     <configLink
 	id         = "TPCClusterFinderAL"
         xlink:href = "TPCClusterFinderAL.xml"/>
-    
-    <configLink
-	id         = "GRCClusterFinderAL"
-        xlink:href = "&configDir;/GRCClusterFinderAL.xml"/>
-    
-    <configLink
-        id         = "DRS4CalibrationManager"
-        xlink:href = "./DRS4CalibrationManager.xml"/>
 
     <configLink
 	id         = "ExBCorrectorSG"
@@ -67,36 +63,12 @@
        xlink:href = "&configDir;/BeamlineTPCTrackFitterBR.xml"/>
     
     <configLink
-       id         = "MainVertexModuleBR"
-       xlink:href = "&configDir;/MainVertexModuleBR.xml"/>
-    
-    <configLink
-        id         = "V0FinderSG"
-        xlink:href = "./V0FinderSG.xml"/>
-
-    <configLink
-        id         = "V0FitterSG"
-        xlink:href = "&configDir;/V0FitterSG.xml"/>
-
-    <configLink
 	id         = "TPCClusterQA"
         xlink:href = "&configDir;/TPCClusterQA.xml"/>
     
     <configLink
-	id         = "TPCVertexQA"
-        xlink:href = "&configDir;/TPCVertexQA.xml"/>
-        
-    <configLink
-	id         = "TDAQQA"
-        xlink:href = "&configDir;/TDAQQA.xml"/>
-        
-    <configLink
-	id         = "GRCClusterQA"
-        xlink:href = "&configDir;/GRCClusterQA.xml"/>
-        
-    <configLink
-        id         = "TOFFQualityAssessmentKA"
-        xlink:href = "TOFFQualityAssessmentKA.xml"/>
+        id         = "TPCKrCalibrationMN"
+        xlink:href = "&configDir;/TPCKrCalibrationMN.xml"/>
 
   </centralConfig>
 

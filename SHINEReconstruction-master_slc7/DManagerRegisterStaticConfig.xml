@@ -10,7 +10,7 @@
   <manager> BeamCounterGeometryFixedManager </manager>
   <manager> BeamCounterPositionFixedManager </manager>
   <manager> BeamCounterStaticInfoXMLManager </manager>
-  <manager> DRS4CalibrationManager </manager>
+  <!--<manager> DRS4CalibrationManager </manager>-->
   <manager> BeamCounterTimingFixedManager </manager>
   <manager> G4GeometryFixedManager </manager>
   <manager> G4MaterialFixedManager </manager>

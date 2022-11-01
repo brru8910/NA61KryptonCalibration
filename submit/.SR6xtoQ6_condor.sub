@@ -1,0 +1,4 @@
+
+initialdir  = /afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/work/20221005_051703/run-040887x00762_2022-07-27_21-39-21
+arguments   = run-040887x00762_2022-07-27_21-39-21.pteraw /eos/experiment/na61/data/KryptonRuns/July2022 /eos/experiment/na61/data/OnlineProduction/2022-p+T2K-OfflineQA /afs/cern.ch/user/n/na61qa/2022-p+T2K-OfflineQA/log.bz2
+queue
