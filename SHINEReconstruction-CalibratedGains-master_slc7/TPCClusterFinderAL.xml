@@ -41,7 +41,7 @@
   <noPadByPadT0Correction> 0 </noPadByPadT0Correction>
 
   <!-- Set this variable to 1 if you do not want pad-by-pad gain correction. -->
-  <noPadByPadGainCorrection> 1 </noPadByPadGainCorrection>
+  <noPadByPadGainCorrection> 0 </noPadByPadGainCorrection>
 
   <!-- Set this variable to 1 if you do not want charge correction for charge loss during drift. -->
   <noChargeLossCorrection> 1 </noChargeLossCorrection>

@@ -132,7 +132,7 @@ counter=0
 
 for sub in `find ./ -type f -name *.sub`
 do
-	while [ $counter -lt 5 ]
+	while [ $counter -lt 2 ]
 	do
 	    echo Submitting ${sub}... try $counter
 	    $CONDOR_CMD -batch-name $jobBatchName  $sub
